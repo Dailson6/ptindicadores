@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+
+    <title>Teste</title>
+</head>
+<body>
+   <style>
+      body {
+      font-family: Arial, sans-serif;
+      background-color:#fff;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 130vh;
+      
+    
+      
+    }
+    div.time{
+    top: 15.5%;
+    left: 50%;
+    border-radius: 20px;
+    color:black;
+    position: absolute;
+
+    }
+    div.Classificação{
+      top: 23.5%;
+    left: 50%;
+    border-radius: 20px, black;
+    color:black;
+    position: absolute;
+    }
+    form {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    button {
+      background-color: #4caf50;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+      margin-top: 5px;
+    }
+
+    button.box{
+      background-color: #f8471b;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 100%;
+      margin-top: px;
+      text-align: center;
+      
+      
+    }
+    
+    a{
+    text-decoration: none;
+    color:  white;
+    padding: 10px;
+    border-radius: 10px;
+}
+ 
+
+
+   </style>
+    <form action="https://api.sheetmonkey.io/form/2Drqp3GC9HnVvxpsDQcaS8" method="post">
+
+        <label >
+        <span>Data da Permissão: </span>
+        <br>
+        <input type="date" name="Data" required>
+        </label>
+        <br><br>
+
+<div class="time">
+        <label >
+            <span>Hora da Liberacão: </span>
+            <br>
+            <input type="time" name="Hora da Liberacão" required>
+            </label>
+            <br><br>
+</div>
+
+<div class="checkbox">
+        <label >
+            <span >Tipo de Serviço:</span>
+            <br>
+            <input type="checkbox" name="Tipo de Serviço" value="Trabalho a Quente" >Trabalho a Quente
+            <br>
+            <input type="checkbox" name="Tipo de Serviço" value="Trabalho em altura" >Trabalho em altura
+            <br>
+            <input type="checkbox" name="Tipo de Serviço" value="Içamento de Carga" >Içamento de Carga
+            <br>
+            <input type="checkbox" name="Tipo de Serviço" value="Eletricidade" >Eletricidade
+            <br>
+            <input type="checkbox" name="Tipo de Serviço" value="Escavação" >Escavação
+            <br>
+            <input type="checkbox" name="Tipo de Serviço" value="Espaço Confinado" >Espaço Confinado
+            <br>
+            <input type="checkbox" name="Tipo de Serviço" value="Trabalho a Frio" >Trabalho a Frio
+         </label>
+         <br><br>
+</div>
+<div class="Classificação">
+         <label >
+            <span >Classificação:</span>
+            <br>
+            <input type="radio" name="Classificação" value="A" >A
+            <br>
+            <input type="radio" name="Classificação" value="B" >B
+            <br>
+            <input type="radio" name="Classificação" value="B" >C
+         <label >
+            <br><br>
+</div>
+        <label >
+            <span >Setor:</span>
+            <br>
+            <input type="checkbox" name="Setor" value="Operação /Rodovia" >Operação /Rodovia
+            <br>
+            <input type="checkbox" name="Setor" value="Operação /Ferrovia" >Operação /Ferrovia
+            <br>
+            <input type="checkbox" name="Setor" value="Operação /Segurança patrimonial" >Operação /Segurança patrimonial
+            <br>
+            <input type="checkbox" name="Setor" value="Manutenção /Manutenção Plan." >Manutenção /Manutenção Plan.
+            <br>
+            <input type="checkbox" name="Setor" value="Manutenção /Manutenção Exec." >Manutenção /Manutenção Exec.
+         <label >
+            <br><br>
+
+
+         <label >
+            <span>Mão de obra: </span>
+            <br>
+            <input type="text" name="Mão de obra" required>
+         </label>
+            <br><br>
+
+         </label>
+            <span>Numero da pt:</span>
+            <br>
+            <input type="number" name="Numero da pt" required>
+         </label>
+            <br><br>
+
+
+         <label >
+            <span>Local do Trabalho: </span>
+            <br>
+            <input type="text" name="Local do Trabalho" required>
+         </label>
+            <br><br>
+         
+         <label >
+            <span>Descrição da Atividade: </span>
+            <br>
+            <input type="text" name="Descrição da atividade" required>
+         </label>
+            <br><br>
+
+
+         <label  for="docClass">Liberacão do trabalho (Bombeiros):</label>
+         <br>
+    <select id="docClass" name="Bombeiros" required>
+        <option value="" selected disabled></option>
+      <option value="Edvando Leal Do Nascimento-Bombeiro Civil Alfa">Edvando Leal Do Nascimento-Bombeiro Civil Alfa</option>
+      <option value="Alexandre de Souza Pedro (Téc. Segurança)">Alexandre de Souza Pedro (Téc. Segurança)</option>
+      <option value="Fabio Mangueira Santos-Bombeiro Civil Bravo">Fabio Mangueira Santos-Bombeiro Civil Bravo</option>
+      <option value="Rafael Santos Guimarães-Bombeiro Civil Bravo">Rafael Santos Guimarães-Bombeiro Civil Bravo</option>
+      <option value="Alberi Dos Santos Gomes-Bombeiro Civil Chalie">Alberi Dos Santos Gomes-Bombeiro Civil Chalie</option>
+      <option value="Jessica Luzia Do Nascimento-Paiva-Bombeiro Civil Chalie">Jessica Luzia Do Nascimento-Paiva-Bombeiro Civil Chalie</option>
+      <option value="Jonathan Willian De Sousa-Bombeiro Civil Delta">Jonathan Willian De Sousa-Bombeiro Civil Delta</option>
+      <option value="Maciel Argolo Dantas-Bombeiro Civil Delta">Maciel Argolo Dantas-Bombeiro Civil Delta</option>
+      <option value="Sandro De Moraes Duarte Filho-Bombeiro Civil Ferista">Sandro De Moraes Duarte Filho-Bombeiro Civil Ferista</option>
+      <option value="Victor Eduardo Da Silva-Bombeiro Civil Lider">Victor Eduardo Da Silva-Bombeiro Civil Lider</option>
+    </select>
+
+    <br><br>
+
+    <label for="docClass">Liberacão do trabalho (Téc.Segurança):</label>
+    <br>
+    <select id="docClass" name="Téc.Segurança" required>
+       <option value="" selected disabled></option>
+      <option value="Jose Bispo dos Santos (Téc. Segurança)">Jose Bispo dos Santos (Téc. Segurança)</option>
+      <option value="Alexandre de Souza Pedro (Téc. Segurança)">Alexandre de Souza Pedro (Téc. Segurança)</option>
+      <option value="André Santos da Silva (Téc. Segurança)">André Santos da Silva (Téc. Segurança)</option>
+      <option value="Tatiane Alves Fonseca (Téc. Segurança)">Tatiane Alves Fonseca (Téc. Segurança)</option>
+      <option value="Carlos Weverton de Andrade Santos  (Téc. Segurança)">Carlos Weverton de Andrade Santos  (Téc. Segurança)</option>
+    </select>
+    <br><br>
+
+    
+         <button type="submit" onclick="onSubmitForm()">Enviar</button>
+         <button class="box"><a  href="tela de login.html" > Sair </a></button>
+        <script src="teste.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+         
+            
+           
+    </form>
+</body>
+</html>
+
+
+
