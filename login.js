@@ -2,7 +2,7 @@
 
 const usersData = [
     { username: 'dmartins', password: 'dm1002' },
-    { username: 'user2', password: 'password2' },
+    { username: 'ellen', password: 'ellen01' },
     // Adicione mais usuários conforme necessário
   ];
   
