@@ -12,7 +12,7 @@
 
         if (!dataField || !horaField || !maoDeObraField || !numeroPtField || !localTrabalhoField || !descricaoAtividadeField || !bombeirosField || !tecSegurancaField) {
         
-            Swal.fire("Erro:Prencha as informações");
+            Swal.fire("Erro:Preencha as informações");
          
             return false; // Impede o envio do formulário se campos obrigatórios não estiverem preenchidos
         }
