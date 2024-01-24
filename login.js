@@ -2,7 +2,24 @@
 
 const usersData = [
     { username: 'dmartins', password: 'dm1002' },
-    { username: 'ellen', password: 'ellen' },
+    { username: 'dbarbosa', password: 'd02nj1' },
+     { username: 'aestella', password: 'avenp03j2' },
+     { username: 'ylima', password: 'ylmeng0j3' },
+     { username: 'amoraes', password: 'amplay05j3' },
+     { username: 'asasilva', password: 'asatrue02j4' },
+     { username: 'tfonseca', password: 'tfpk6j5' },
+    { username: 'cwsantos', password: 'cwert8j6' },
+    { username: 'alexandre.pedro', password: 'alert90j7' },
+
+
+
+
+
+
+
+
+
+    
     // Adicione mais usuários conforme necessário
   ];
   
